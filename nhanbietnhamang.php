@@ -73,7 +73,7 @@ $carriers_number = [
     $number = str_replace(array('-', '.', ' '), '', $number);
 
     // $number is not a phone number
-    if (!preg_match('/^0[0-9]{9}$/', $number)) return "wrong_number";
+    if (!preg_match('/^0[0-9]{9}$/', $number)) return "WRONG_NUMBER";
 
     $dauso = substr($number, 0, 3);
    
@@ -81,7 +81,7 @@ $carriers_number = [
     if($carriers_number[$dauso] ){
         return $carriers_number[$dauso];
     }else{
-        return "unknow";
+        return "UNKNOW";
     }
 
 }
