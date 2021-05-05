@@ -1,5 +1,5 @@
-
-Code snippets dành cho việc nhận diện đầu số di động
+ Viettel, Mobile, vinaphone....
+Code snippets nhận diện đầu số nhà mạng, truyền vào số di động, trả vè tên mạng Viettel, Mobile, vinaphone....
 ### Nguồn gốc:
 Code này được chỉnh sửa từ code của  [datnq](https://github.com/datnq "datnq") / [Vietnamese-mobile-carrier](https://github.com/datnq/Vietnamese-mobile-carrier "Vietnamese-mobile-carrier")
 Mình đã nhận thấy có thể rút gọn hơn code của [datnq](https://github.com/datnq "datnq") 
